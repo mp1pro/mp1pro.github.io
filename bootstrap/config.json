@@ -115,16 +115,16 @@
     "@dropdown-link-disabled-color": "@gray-light",
     "@dropdown-header-color": "@gray-light",
     "@dropdown-caret-color": "#000",
-    "@screen-xs": "400px",
+    "@screen-xs": "320px",
     "@screen-xs-min": "@screen-xs",
     "@screen-phone": "@screen-xs-min",
     "@screen-sm": "768px",
     "@screen-sm-min": "@screen-sm",
     "@screen-tablet": "@screen-sm-min",
-    "@screen-md": "992px",
+    "@screen-md": "1280px",
     "@screen-md-min": "@screen-md",
     "@screen-desktop": "@screen-md-min",
-    "@screen-lg": "1200px",
+    "@screen-lg": "1600px",
     "@screen-lg-min": "@screen-lg",
     "@screen-lg-desktop": "@screen-lg-min",
     "@screen-xs-max": "(@screen-sm-min - 1)",
@@ -431,5 +431,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=9b21491224535608fd9d7a3edf5f4c57"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=39b2ee96e5d79ac192eb4c13983c2472"
 }
