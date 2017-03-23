@@ -1,3 +1,32 @@
 body{
     background-color: #00b3ee;
 }
+header{
+    background-color: orange;
+    border: dashed black 1px;
+    height: 20%;
+}
+.row{
+    background-color: red;
+}
+.menu-row{
+    background-color: white;
+}
+main{
+    border: dashed blue 1px;
+    height: 80%;
+}
+footer{
+    background-color: yellow;
+}
+nav{
+    background-color: green;
+    height: 800px;
+}
+.share{
+    height: 800px;
+    background-color: purple;
+}
+article{
+    background-color: blue;
+}
