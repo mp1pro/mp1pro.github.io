@@ -3,9 +3,25 @@ body{
 }
 header{
     background-color: orange;
-    border: dashed black 1px;
-    height: 20%;
+    border: solid black 3px;
+
 }
+.logo{
+    background-color: green;
+    /*height of header*/
+    height: 200px;
+    max-width: 250px;
+}
+.logo img{
+    background-color: green;
+    /*height of header*/
+    height: 200px;
+    width: 100%;
+}
+header-title{
+    max-width: 1250px;
+}
+
 .row{
     background-color: red;
 }
