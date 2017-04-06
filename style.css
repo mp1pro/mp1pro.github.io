@@ -47,3 +47,8 @@ article{
     background-color: blue;
     height: 800px;
 }
+.right{
+    background-color: orange;
+    height: 800px;
+    border: solid green 3px;
+}
