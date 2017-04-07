@@ -10,7 +10,7 @@ header{
     background-color: green;
     /*height of header*/
     height: 200px;
-    max-width: 250px;
+    max-width: 100%;
 }
 .logo img{
     background-color: green;
@@ -18,8 +18,18 @@ header{
     height: 200px;
     width: 100%;
 }
-header-title{
-    max-width: 1250px;
+.header-title{
+
+    font-size: 144px;
+    height: 200px;
+
+}
+
+.header-title-center{
+    height: 200px;
+    width: 1200px;
+    background-color: #00b3ee;
+    margin: 0 auto;
 }
 
 .row{
