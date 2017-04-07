@@ -1,6 +1,7 @@
 body{
     background-color: #00b3ee;
 }
+/*HEADER SECTION*/
 header{
     background-color: orange;
     border: solid black 3px;
@@ -8,7 +9,7 @@ header{
 }
 .logo{
     background-color: green;
-    /*height of header*/
+    /*height of header set as variable*/
     height: 200px;
     max-width: 100%;
 }
@@ -21,17 +22,20 @@ header{
 .header-title{
 
     font-size: 144px;
+    /*height of header*/
     height: 200px;
 
 }
 
 .header-title-center{
+    /*height of header*/
     height: 200px;
     width: 1100px;
     background-color: #00b3ee;
     margin: 0 auto;
     text-align: center;
 }
+/*END OF HEADER*/
 
 .row{
     background-color: red;
