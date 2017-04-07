@@ -47,13 +47,40 @@ header{
     position: relative;
     bottom: 22px;
 }
+.header-logo{
+    font-size: 168px;
+    font-family: "Times New Roman", Times, serif;
+    text-align:center;
+    width: 269px;
+    height: 200px;
+    background-color: #00b3ee;
+    margin: 0 auto;
+    padding-left: 0px;
+
+}
+.header-logo .big-x{
+    position: relative;
+    bottom: 18px;
+}
+.little-x{
+    font-size: 30px;
+}
+main ul {
+    list-style: none;
+    font-size: 26px;
+    margin:0 auto;
+    padding:0;
+    width: 269px;
+    text-align:left;
+    background-color: #00b3ee;
+}
 /*END OF HEADER*/
 
 .row{
     background-color: red;
 }
 .menu-row{
-    background-color: white;
+    background-color: brown;
 }
 main{
     border: dashed blue 1px;
