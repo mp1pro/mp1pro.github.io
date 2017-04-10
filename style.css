@@ -79,9 +79,24 @@ main ul {
 .row{
     background-color: red;
 }
+/*left nav bar*/
+nav{
+
+    background-color: green;
+    height: 800px;
+}
+
+nav ul li{
+    padding-left:10px;
+}
+/*end of nav bar*/
+
+/*menu-bar*/
 .menu-row{
     background-color: brown;
 }
+/*end of menu-bar*/
+
 main{
     border: dashed blue 1px;
     height: 80%;
@@ -89,10 +104,7 @@ main{
 footer{
     background-color: yellow;
 }
-nav{
-    background-color: green;
-    height: 800px;
-}
+
 .share{
     height: 800px;
     background-color: purple;
