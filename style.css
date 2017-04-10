@@ -94,6 +94,40 @@ nav ul li{
 /*menu-bar*/
 .menu-row{
     background-color: brown;
+    height: 40px;
+}
+.nav-bar ul{
+    padding:0;
+    margin: 0;
+}
+.nav-bar ul li {
+    display: inline;
+    height: 40px;
+}
+.nav-bar{
+    background-color: purple;
+    height: 40px;
+}
+.search{
+    background-color: green;
+    height: 40px;
+}
+.search-blcok{
+    background-color: #00b3ee;
+    width: 269px;
+    margin:0 auto;
+    text-align: left;
+    height: 40px;
+    font-size: 26px;
+}
+.search-blcok input{
+    padding: 0 0 0 10px;
+    font-size: 26px;
+    height: 40px;
+}
+.search-blcok .input-group-addon{
+    padding:0 10px;
+    font-size: 30px;
 }
 /*end of menu-bar*/
 
