@@ -139,6 +139,20 @@ main{
     border: dashed blue 1px;
     height: 80%;
 }
+/*article*/
+.adsense-box{
+    width:336px;
+    height: 280px;
+    background-color: green;
+    float: right;
+    margin: 0 0 20px 20px;
+}
+article{
+    background-color: blue;
+    height: 800px;
+    font-size: 20px;
+}
+/*end of article*/
 footer{
     background-color: yellow;
 }
@@ -147,10 +161,7 @@ footer{
     height: 800px;
     background-color: purple;
 }
-article{
-    background-color: blue;
-    height: 800px;
-}
+
 .right{
     background-color: orange;
     height: 800px;
