@@ -48,7 +48,7 @@ header{
     font-size: 168px;
     font-family: "Times New Roman", Times, serif;
     text-align:center;
-    width: 269px;
+    max-width: 269px;
     height: 200px;
     background-color: #00b3ee;
     margin: 0 auto;
@@ -118,7 +118,7 @@ nav ul li{
 }
 .search-blcok{
     background-color: #00b3ee;
-    width: 269px;
+    max-width: 269px;
     margin:0 auto;
     text-align: left;
     height: 40px;
@@ -160,7 +160,7 @@ article span{
 .article-title{
     font-size: 30px;
     background-color: white;
-    padding-left: 10px;
+    padding-bottom: 10px;
 }
 /*end of article*/
 footer{
