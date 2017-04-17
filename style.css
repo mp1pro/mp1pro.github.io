@@ -1,7 +1,56 @@
 body{
     background-color: #00b3ee;
 }
-/*HEADER SECTION*/
+/*HEADER SECTION********************************/
+@media (min-width: 1024px) {
+    .header-logo {
+        font-size: 84px;
+        /*height of header*/
+        height: 100px;
+    }
+    .slogan{
+        height: 15px;
+    }
+    .header-title{
+        /*height of header*/
+        height: 100px;
+    }
+    .logo{
+        /*height of header*/
+        height: 100px;
+    }
+    .header-title-center {
+        /*height of header*/
+        height: 85px;
+        font-size: 72px;
+        margin: -8px auto 5px;
+    }
+}
+@media (min-width: 1366px) {
+    .header-logo {
+        font-size: 168px;
+        /*height of header*/
+        height: 200px;
+    }
+    .slogan{
+        height: 30px;
+    }
+    .header-title{
+        /*height of header*/
+        height: 200px;
+    }
+    .logo{
+        /*height of header*/
+        height: 200px;
+    }
+    .header-title-center {
+        /*height of header*/
+        height: 170px;
+        font-size: 144px;
+        margin: 0 auto;
+    }
+
+}
 header{
     background-color: orange;
     border: solid black 3px;
@@ -10,31 +59,28 @@ header{
 .logo{
     background-color: green;
     /*height of header set as variable*/
-    height: 200px;
+    /*height: 200px;*/
     max-width: 100%;
 }
 .logo img{
     background-color: green;
     /*height of header*/
-    height: 200px;
+    /*height: 200px;*/
     width: 100%;
 }
 .header-title{
-    /*height of header*/
-    height: 200px;
+
 
 }
 .header-title-center{
-    /*height of header*/
-    height: 170px;
+
     width: 1050px;
     /*background-color: #00b3ee;*/
-    margin: 0 auto;
+
     text-align: left;
-    font-size: 144px;
 }
 .slogan{
-    height: 30px;
+
     width: 1050px;
     /*background-color: green;*/
     font-size: 26px;
@@ -45,15 +91,14 @@ header{
     bottom: 22px;
 }
 .header-logo{
-    font-size: 168px;
+    /*font-size: 168px;*/
     font-family: "Times New Roman", Times, serif;
     text-align:center;
     max-width: 269px;
-    height: 200px;
+    /*height: 200px;*/
     background-color: #00b3ee;
     margin: 0 auto;
     padding-left: 0px;
-
 }
 .header-logo .big-x{
     position: relative;
@@ -71,7 +116,7 @@ main ul {
     text-align:left;
     background-color: #00b3ee;
 }
-/*END OF HEADER*/
+/*END OF HEADER****************************************************/
 
 .row{
     background-color: red;
