@@ -4,26 +4,27 @@ body{
 /*HEADER SECTION********************************/
 @media (min-width: 1024px) {
     .header-logo {
-        font-size: 84px;
+        font-size: 125px;
         /*height of header*/
-        height: 100px;
+        height: 150px;
     }
     .slogan{
-        height: 15px;
+        height: 23px;
     }
     .header-title{
         /*height of header*/
-        height: 100px;
+        height: 150px;
     }
     .logo{
         /*height of header*/
-        height: 100px;
+        height: 150px;
     }
     .header-title-center {
         /*height of header*/
         height: 85px;
-        font-size: 72px;
-        margin: -8px auto 5px;
+        font-size: 108px;
+        margin: 0px auto 0px;
+        width: 800px;
     }
 }
 @media (min-width: 1366px) {
@@ -48,6 +49,7 @@ body{
         height: 170px;
         font-size: 144px;
         margin: 0 auto;
+        width: 1050px;
     }
 
 }
@@ -74,15 +76,15 @@ header{
 }
 .header-title-center{
 
-    width: 1050px;
-    /*background-color: #00b3ee;*/
+
+    background-color: #00b3ee;
 
     text-align: left;
 }
 .slogan{
 
     width: 1050px;
-    /*background-color: green;*/
+    background-color: green;
     font-size: 26px;
     margin: 0 auto;
     text-align: left;
