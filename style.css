@@ -2,6 +2,9 @@ body{
     background-color: #00b3ee;
 }
 /*HEADER SECTION********************************/
+@media (min-width: 768px) {
+    
+}
 @media (min-width: 1024px) {
     .header-logo {
         font-size: 125px;
