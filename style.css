@@ -21,10 +21,12 @@ body{
     }
     .header-title-center {
         /*height of header*/
-        height: 85px;
-        font-size: 108px;
+        height: 127px;
+        font-size: 110px;
         margin: 0px auto 0px;
         width: 800px;
+
+        bottom: 6px;
     }
 }
 @media (min-width: 1366px) {
@@ -50,6 +52,8 @@ body{
         font-size: 144px;
         margin: 0 auto;
         width: 1050px;
+
+        bottom: 0px;
     }
 
 }
@@ -78,13 +82,13 @@ header{
 
 
     background-color: #00b3ee;
-
+    position: relative;
     text-align: left;
 }
 .slogan{
 
     width: 1050px;
-    background-color: green;
+    /*background-color: green;*/
     font-size: 26px;
     margin: 0 auto;
     text-align: left;
