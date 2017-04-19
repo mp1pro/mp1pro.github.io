@@ -7,6 +7,7 @@ body{
         font-size: 125px;
         /*height of header*/
         height: 150px;
+        max-width: 200px;
     }
     .slogan{
         height: 23px;
@@ -38,12 +39,19 @@ body{
         font-size: 17px;
     }
     /*end nav-bar*/
+
+    /*left nav bar*/
+    main ul {
+        max-width: 200px;
+    }
+    /*end of nav bar*/
 }
 @media (min-width: 1366px) {
     .header-logo {
         font-size: 168px;
         /*height of header*/
         height: 200px;
+        max-width: 269px;
     }
     .slogan{
         height: 30px;
@@ -75,6 +83,12 @@ body{
         font-size: 22px;
     }
     /*end nav-bar*/
+
+    /*left nav bar*/
+    main ul {
+        max-width: 269px;
+    }
+    /*end of nav bar*/
 
 }
 header{
@@ -120,7 +134,7 @@ header{
     /*font-size: 168px;*/
     font-family: "Times New Roman", Times, serif;
     text-align:center;
-    max-width: 269px;
+
     /*height: 200px;*/
     background-color: #00b3ee;
     margin: 0 auto;
@@ -133,15 +147,6 @@ header{
 .little-x{
     font-size: 30px;
 }
-main ul {
-    list-style: none;
-    font-size: 26px;
-    margin:0 auto;
-    padding:0;
-    width: 269px;
-    text-align:left;
-    background-color: #00b3ee;
-}
 /*END OF HEADER****************************************************/
 
 .row{
@@ -152,7 +157,15 @@ nav{
     background-color: green;
     height: 800px;
 }
+main ul {
+    list-style: none;
+    font-size: 26px;
+    margin:0 auto;
+    padding:0;
 
+    text-align:left;
+    background-color: #00b3ee;
+}
 nav ul li{
     padding-left:10px;
 }
