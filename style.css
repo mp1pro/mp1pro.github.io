@@ -10,6 +10,10 @@ body{
     }
     .slogan{
         height: 23px;
+        /*width of title*/
+        width: 800px;
+        padding-left: 10px;
+        bottom: 22px;
     }
     .header-title{
         /*height of header*/
@@ -24,6 +28,7 @@ body{
         height: 127px;
         font-size: 110px;
         margin: 0px auto 0px;
+        /*width of title*/
         width: 800px;
 
         bottom: 6px;
@@ -37,6 +42,10 @@ body{
     }
     .slogan{
         height: 30px;
+        /*width of title*/
+        width: 1050px;
+        padding-left: 12px;
+        bottom: 20px;
     }
     .header-title{
         /*height of header*/
@@ -51,6 +60,7 @@ body{
         height: 170px;
         font-size: 144px;
         margin: 0 auto;
+        /*width of title*/
         width: 1050px;
 
         bottom: 0px;
@@ -87,14 +97,14 @@ header{
 }
 .slogan{
 
-    width: 1050px;
+
     /*background-color: green;*/
     font-size: 26px;
     margin: 0 auto;
     text-align: left;
-    padding-left: 12px;
+
     position: relative;
-    bottom: 22px;
+
 }
 .header-logo{
     /*font-size: 168px;*/
