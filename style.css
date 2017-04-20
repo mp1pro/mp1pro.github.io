@@ -27,9 +27,19 @@ body{
 
         max-width: 100%;
     }
+    .logo-icon .header-logo{
+        font-size:26px;
+        /*height of menu-row*/
+        height: 40px;
+    }
+    .header-logo .little-x{
+        font-size: 12px;
+        position:relative;
+        top: 6px;
+    }
 }
 @media (min-width: 1024px) {
-    .header-logo {
+    .logo .header-logo {
         font-size: 125px;
         /*height of header*/
         height: 150px;
@@ -80,7 +90,7 @@ body{
     /*end of nav bar*/
 }
 @media (min-width: 1366px) {
-    .header-logo {
+    .logo .header-logo {
         font-size: 168px;
         /*height of header*/
         height: 200px;
@@ -173,15 +183,15 @@ header{
     text-align:center;
 
     /*height: 200px;*/
-    background-color: #00b3ee;
+    background-color: yellow;
     margin: 0 auto;
     padding-left: 0px;
 }
-.header-logo .big-x{
+.logo .header-logo .big-x{
     position: relative;
     bottom: 18px;
 }
-.little-x{
+.logo .header-logo .little-x{
     font-size: 30px;
 }
 /*END OF HEADER****************************************************/
