@@ -8,6 +8,12 @@ body{
         /*height of menu-row*/
         height: 40px;
     }
+    .menu-icon .h-stripe{
+        width: 90%;
+        height: 5px;
+        background-color: black;
+        margin: 6px auto;
+    }
     .logo-icon{
         background-color: orangered;
         /*height of menu-row*/
