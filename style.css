@@ -9,6 +9,7 @@ body{
         height: 40px;
     }
     .menu-icon .h-stripe{
+        /*w3c schools*/
         width: 90%;
         height: 5px;
         background-color: black;
@@ -18,6 +19,13 @@ body{
         background-color: orangered;
         /*height of menu-row*/
         height: 40px;
+    }
+    .input-group-addon{
+        visibility: hidden;
+    }
+    .search-blcok {
+
+        max-width: 100%;
     }
 }
 @media (min-width: 1024px) {
@@ -51,6 +59,13 @@ body{
         width: 800px;
 
         bottom: 6px;
+    }
+    .input-group-addon{
+        visibility: visible;
+    }
+    .search-blcok {
+
+        max-width: 269px;
     }
     /*nav-bar*/
     .nav-bar ul li{
@@ -95,6 +110,10 @@ body{
         width: 1050px;
 
         bottom: 0px;
+    }
+    .search-blcok {
+
+        max-width: 269px;
     }
     /*nav-bar*/
     .nav-bar ul li{
@@ -221,7 +240,7 @@ nav ul li{
 }
 .search-blcok{
     background-color: #00b3ee;
-    max-width: 269px;
+
     margin:0 auto;
     text-align: left;
     height: 40px;
