@@ -3,7 +3,16 @@ body{
 }
 /*HEADER SECTION********************************/
 @media (min-width: 768px) {
-    
+    .menu-icon{
+        background-color: orange;
+        /*height of menu-row*/
+        height: 40px;
+    }
+    .logo-icon{
+        background-color: orangered;
+        /*height of menu-row*/
+        height: 40px;
+    }
 }
 @media (min-width: 1024px) {
     .header-logo {
