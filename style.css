@@ -2,6 +2,9 @@ body{
     background-color: #00b3ee;
 }
 /*HEADER SECTION********************************/
+@media (min-width: 320px) {
+    
+}
 @media (min-width: 768px) {
     .menu-icon{
         background-color: orange;
