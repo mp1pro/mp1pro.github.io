@@ -3,7 +3,36 @@ body{
 }
 /*HEADER SECTION********************************/
 @media (min-width: 320px) {
-    
+    .menu-icon{
+        background-color: orange;
+        /*height of menu-row*/
+        height: 40px;
+    }
+    .menu-icon .h-stripe{
+        /*w3c schools*/
+        width: 90%;
+        height: 5px;
+        background-color: black;
+        margin: 6px auto;
+    }
+    .logo-icon{
+        background-color: orangered;
+        /*height of menu-row*/
+        height: 40px;
+    }
+    .input-group-addon{
+        visibility: hidden;
+    }
+    .logo-icon .header-logo{
+        font-size:26px;
+        /*height of menu-row*/
+        height: 40px;
+    }
+    .header-logo .little-x{
+        font-size: 12px;
+        position:relative;
+        top: 6px;
+    }
 }
 @media (min-width: 768px) {
     .menu-icon{
