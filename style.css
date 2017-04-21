@@ -2,7 +2,17 @@ body{
     background-color: #00b3ee;
 }
 /*HEADER SECTION********************************/
+
 @media (min-width: 320px) {
+    .adsense-box{
+        display:none;
+    }
+    .adsense-box-mobile{
+        width: 320px;
+        height: 100px;
+        background-color: green;
+        margin: 0 auto;
+    }
     .menu-icon{
         background-color: orange;
         /*height of menu-row*/
@@ -32,6 +42,19 @@ body{
         font-size: 12px;
         position:relative;
         top: 6px;
+    }
+}
+@media (min-width: 340px){
+    .adsense-box{
+        width:336px;
+        height: 280px;
+        background-color: green;
+        float: right;
+        margin: 0 0 20px 20px;
+        display: block;
+    }
+    .adsense-box-mobile{
+        display: none;
     }
 }
 @media (min-width: 768px) {
@@ -304,13 +327,7 @@ main{
 
 }
 /*article*/
-.adsense-box{
-    width:336px;
-    height: 280px;
-    background-color: green;
-    float: right;
-    margin: 0 0 20px 20px;
-}
+
 article.inside{
     background-color: blue;
     height: auto;
