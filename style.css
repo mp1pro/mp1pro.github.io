@@ -211,13 +211,12 @@ header{
     width: 100%;
 }
 .header-title{
-
-
+    background-color: orange;
 }
 .header-title-center{
 
 
-    background-color: #00b3ee;
+    /*background-color: #00b3ee;*/
     position: relative;
     text-align: left;
 }
@@ -252,11 +251,11 @@ header{
 /*END OF HEADER****************************************************/
 
 .row{
-    background-color: red;
+    /*background-color: red;*/
 }
 /*left nav bar*/
 nav{
-    background-color: green;
+    background-color: pink;
     height: 800px;
 }
 main ul {
@@ -266,7 +265,7 @@ main ul {
     padding:0;
 
     text-align:left;
-    background-color: #00b3ee;
+    background-color: pink;
 }
 nav ul li{
     padding-left:10px;
@@ -304,7 +303,7 @@ nav ul li{
     height: 40px;
 }
 .search-blcok{
-    background-color: #00b3ee;
+    background-color: white;
 
     margin:0 auto;
     text-align: left;
@@ -324,7 +323,7 @@ nav ul li{
 
 main{
     border: dashed blue 1px;
-
+    background-color: white;
 }
 /*article*/
 
@@ -345,16 +344,16 @@ article span{
 }
 /*end of article*/
 footer{
-    background-color: yellow;
+    background-color: lavender;
 }
 
 .share{
     height: 800px;
-    background-color: purple;
+    background-color: grey;
 }
 
 .right{
-    background-color: orange;
+    background-color: red;
     height: 800px;
     border: solid green 3px;
 }
