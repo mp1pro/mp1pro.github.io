@@ -14,7 +14,7 @@ body{
         margin: 0 auto;
     }
     .menu-icon{
-        background-color: orange;
+        background-color: purple;
         /*height of menu-row*/
         height: 40px;
     }
@@ -59,7 +59,7 @@ body{
 }
 @media (min-width: 768px) {
     .menu-icon{
-        background-color: orange;
+
         /*height of menu-row*/
         height: 40px;
     }
