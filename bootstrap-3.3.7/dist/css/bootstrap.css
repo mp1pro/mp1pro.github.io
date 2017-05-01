@@ -8800,7 +8800,9 @@ button.close {
 .modal-footer:before,
 .modal-footer:after,
 header:before,
-header:after {
+header:after,
+header .header-1:before,
+header .header-1:after {
   display: table;
   content: " ";
 }
@@ -8820,7 +8822,8 @@ header:after {
 .panel-body:after,
 .modal-header:after,
 .modal-footer:after,
-header:after {
+header:after,
+header .header-1:after {
   clear: both;
 }
 .center-block {
@@ -9084,6 +9087,21 @@ header > .navbar-collapse {
   header > .navbar-collapse {
     margin-right: 0;
     margin-left: 0;
+  }
+}
+header .header-1 {
+  display: none !important;
+  margin-right: 0;
+  margin-left: 0;
+}
+@media (min-width: 1366px) {
+  header .header-1 {
+    display: block !important;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1365px) {
+  header .header-1 {
+    display: block !important;
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
