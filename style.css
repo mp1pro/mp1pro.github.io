@@ -113,7 +113,7 @@ body{
     }
     .logo{
         /*height of header*/
-        height: 150px;
+
     }
     .header-title-center {
         /*height of header*/
@@ -164,7 +164,7 @@ body{
     }
     .logo{
         /*height of header*/
-        height: 200px;
+
     }
     .header-title-center {
         /*height of header*/
@@ -195,10 +195,10 @@ body{
 }
 
 .logo{
-    background-color: green;
+
     /*height of header set as variable*/
     /*height: 200px;*/
-    max-width: 100%;
+
 }
 .logo img{
     background-color: green;
