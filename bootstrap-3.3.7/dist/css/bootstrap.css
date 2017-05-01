@@ -9118,7 +9118,7 @@ header .header-1 .logo {
     width: 20%;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1366px) {
   header .header-1 .logo {
     float: left;
     width: 20%;
