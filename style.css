@@ -100,13 +100,6 @@ body{
         height: 150px;
         max-width: 200px;
     }
-    .slogan{
-        height: 23px;
-        /*width of title*/
-        width: 800px;
-        padding-left: 10px;
-        bottom: 22px;
-    }
 
     .logo{
         /*height of header*/
@@ -138,13 +131,6 @@ body{
         /*height of header*/
         height: 200px;
         max-width: 269px;
-    }
-    .slogan{
-        height: 30px;
-        /*width of title*/
-        width: 1050px;
-        padding-left: 12px;
-        bottom: 20px;
     }
 
     .logo{
@@ -184,17 +170,7 @@ body{
 }
 
 
-.slogan{
 
-
-    /*background-color: green;*/
-    font-size: 26px;
-    margin: 0 auto;
-    text-align: left;
-
-    position: relative;
-
-}
 .header-logo{
     /*font-size: 168px;*/
     font-family: "Times New Roman", Times, serif;

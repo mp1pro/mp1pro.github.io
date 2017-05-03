@@ -9199,6 +9199,31 @@ header .header-1 .header-title .header-title-center {
     font-size: 144px;
   }
 }
+header .header-1 .header-title .slogan {
+  position: relative;
+  margin: 0 auto;
+  /*background-color: green;*/
+  font-size: 26px;
+  text-align: left;
+}
+@media (min-width: 1024px) {
+  header .header-1 .header-title .slogan {
+    bottom: 22px;
+    /*width of title*/
+    width: 800px;
+    height: 23px;
+    padding-left: 10px;
+  }
+}
+@media (min-width: 1366px) {
+  header .header-1 .header-title .slogan {
+    bottom: 20px;
+    /*width of title*/
+    width: 1050px;
+    height: 30px;
+    padding-left: 12px;
+  }
+}
 header .header-2 {
   margin-right: 0;
   margin-left: 0;
