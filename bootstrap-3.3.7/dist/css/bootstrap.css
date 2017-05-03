@@ -8802,7 +8802,9 @@ button.close {
 header:before,
 header:after,
 header .header-1:before,
-header .header-1:after {
+header .header-1:after,
+footer:before,
+footer:after {
   display: table;
   content: " ";
 }
@@ -8823,7 +8825,8 @@ header .header-1:after {
 .modal-header:after,
 .modal-footer:after,
 header:after,
-header .header-1:after {
+header .header-1:after,
+footer:after {
   clear: both;
 }
 .center-block {
@@ -9132,6 +9135,25 @@ header .header-1 .logo {
 @media (min-width: 1366px) {
   header .header-1 .logo {
     height: 200px;
+  }
+}
+footer {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: lavender;
+}
+footer > .navbar-header,
+footer > .navbar-collapse {
+  margin-right: -0;
+  margin-left: -0;
+}
+@media (min-width: 768px) {
+  footer > .navbar-header,
+  footer > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
