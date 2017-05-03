@@ -9172,6 +9172,33 @@ header .header-1 .header-title {
     height: 200px;
   }
 }
+header .header-1 .header-title .header-title-center {
+  /*background-color: #00b3ee;*/
+  position: relative;
+  text-align: left;
+}
+@media (min-width: 1024px) {
+  header .header-1 .header-title .header-title-center {
+    bottom: 6px;
+    /*width of title*/
+    width: 800px;
+    /*height of header*/
+    height: 127px;
+    margin: 0 auto 0;
+    font-size: 110px;
+  }
+}
+@media (min-width: 1366px) {
+  header .header-1 .header-title .header-title-center {
+    bottom: 0;
+    /*width of title*/
+    width: 1050px;
+    /*height of header*/
+    height: 170px;
+    margin: 0 auto;
+    font-size: 144px;
+  }
+}
 header .header-2 {
   margin-right: 0;
   margin-left: 0;
