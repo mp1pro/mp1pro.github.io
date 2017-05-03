@@ -7,12 +7,7 @@ body{
     .adsense-box{
         display:none;
     }
-    .adsense-box-mobile{
-        width: 320px;
-        height: 100px;
-        background-color: green;
-        margin: 0 auto;
-    }
+
     .menu-icon{
         background-color: purple;
         /*height of menu-row*/
@@ -52,9 +47,6 @@ body{
         float: right;
         margin: 0 0 20px 20px;
         display: block;
-    }
-    .adsense-box-mobile{
-        display: none;
     }
 }
 @media (min-width: 768px) {

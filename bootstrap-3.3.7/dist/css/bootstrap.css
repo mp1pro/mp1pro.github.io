@@ -9228,6 +9228,19 @@ header .header-2 {
   margin-right: 0;
   margin-left: 0;
 }
+@media (min-width: 320px) {
+  .adsense-box-mobile {
+    width: 320px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: green;
+  }
+}
+@media (min-width: 340px) {
+  .adsense-box-mobile {
+    display: none;
+  }
+}
 main {
   padding-right: 0;
   padding-left: 0;
