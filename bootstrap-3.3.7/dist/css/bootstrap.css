@@ -8803,6 +8803,8 @@ header:before,
 header:after,
 header .header-1:before,
 header .header-1:after,
+main:before,
+main:after,
 footer:before,
 footer:after {
   display: table;
@@ -8826,6 +8828,7 @@ footer:after {
 .modal-footer:after,
 header:after,
 header .header-1:after,
+main:after,
 footer:after {
   clear: both;
 }
@@ -9135,6 +9138,26 @@ header .header-1 .logo {
 @media (min-width: 1366px) {
   header .header-1 .logo {
     height: 200px;
+  }
+}
+main {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+  border: dashed blue 1px;
+}
+main > .navbar-header,
+main > .navbar-collapse {
+  margin-right: -0;
+  margin-left: -0;
+}
+@media (min-width: 768px) {
+  main > .navbar-header,
+  main > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
   }
 }
 footer {
