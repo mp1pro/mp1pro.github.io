@@ -107,10 +107,7 @@ body{
         padding-left: 10px;
         bottom: 22px;
     }
-    .header-title{
-        /*height of header*/
-        height: 150px;
-    }
+
     .logo{
         /*height of header*/
 
@@ -158,10 +155,7 @@ body{
         padding-left: 12px;
         bottom: 20px;
     }
-    .header-title{
-        /*height of header*/
-        height: 200px;
-    }
+
     .logo{
         /*height of header*/
 
@@ -206,9 +200,7 @@ body{
     /*height: 200px;*/
     width: 100%;
 }
-.header-title{
-    background-color: orange;
-}
+
 .header-title-center{
 
 
