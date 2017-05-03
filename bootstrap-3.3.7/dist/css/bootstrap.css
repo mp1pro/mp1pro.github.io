@@ -8803,6 +8803,8 @@ header:before,
 header:after,
 header .header-1:before,
 header .header-1:after,
+header .header-2:before,
+header .header-2:after,
 main:before,
 main:after,
 footer:before,
@@ -8828,6 +8830,7 @@ footer:after {
 .modal-footer:after,
 header:after,
 header .header-1:after,
+header .header-2:after,
 main:after,
 footer:after {
   clear: both;
@@ -9139,6 +9142,10 @@ header .header-1 .logo {
   header .header-1 .logo {
     height: 200px;
   }
+}
+header .header-2 {
+  margin-right: 0;
+  margin-left: 0;
 }
 main {
   padding-right: 0;
