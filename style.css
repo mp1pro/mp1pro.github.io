@@ -13,9 +13,6 @@ body{
         /*height of menu-row*/
         height: 40px;
     }
-    .input-group-addon{
-        visibility: hidden;
-    }
     .logo-icon .header-logo{
         font-size:26px;
         /*height of menu-row*/
@@ -44,9 +41,6 @@ body{
         /*height of menu-row*/
         height: 40px;
     }
-    .input-group-addon{
-        visibility: hidden;
-    }
     .logo-icon .header-logo{
         font-size:26px;
         /*height of menu-row*/
@@ -64,15 +58,6 @@ body{
         /*height of header*/
         height: 150px;
         max-width: 200px;
-    }
-
-    .logo{
-        /*height of header*/
-
-    }
-
-    .input-group-addon{
-        visibility: visible;
     }
     /*nav-bar*/
     .nav-bar ul li{
@@ -178,11 +163,6 @@ nav ul li{
 .nav-bar{
     background-color: purple;
     height: 40px;
-}
-
-.search-blcok .input-group-addon{
-    padding:0 10px;
-    font-size: 30px;
 }
 /*end of menu-bar*/
 

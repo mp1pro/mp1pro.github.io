@@ -9337,6 +9337,20 @@ header .header-2 .menu-row .search .search-blcok input {
   padding: 0 0 0 10px;
   font-size: 26px;
 }
+header .header-2 .menu-row .search .search-blcok .input-group-addon {
+  padding: 0 10px;
+  font-size: 30px;
+}
+@media (min-width: 320px) {
+  header .header-2 .menu-row .search .search-blcok .input-group-addon {
+    visibility: hidden;
+  }
+}
+@media (min-width: 1024px) {
+  header .header-2 .menu-row .search .search-blcok .input-group-addon {
+    visibility: visible;
+  }
+}
 @media (min-width: 320px) {
   .adsense-box-mobile {
     width: 320px;
