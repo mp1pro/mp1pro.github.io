@@ -8,11 +8,7 @@ body{
         display:none;
     }
 
-    .logo-icon{
-        background-color: orangered;
-        /*height of menu-row*/
-        height: 40px;
-    }
+
     .logo-icon .header-logo{
         font-size:26px;
         /*height of menu-row*/
