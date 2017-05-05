@@ -9143,6 +9143,34 @@ header .header-1 .logo {
     height: 200px;
   }
 }
+header .header-1 .logo .header-logo {
+  /*height of menu-row*/
+  height: 40px;
+  padding-left: 0;
+  margin: 0 auto;
+  /*font-size: 168px;*/
+  font-family: "Times New Roman", Times, serif;
+  font-size: 26px;
+  text-align: center;
+  /*height: 200px;*/
+  background-color: yellow;
+}
+@media (min-width: 1024px) {
+  header .header-1 .logo .header-logo {
+    max-width: 200px;
+    /*height of header*/
+    height: 150px;
+    font-size: 125px;
+  }
+}
+@media (min-width: 1366px) {
+  header .header-1 .logo .header-logo {
+    max-width: 269px;
+    /*height of header*/
+    height: 200px;
+    font-size: 168px;
+  }
+}
 header .header-1 .header-title {
   position: relative;
   min-height: 1px;
@@ -9376,6 +9404,34 @@ header .header-2 .menu-row .logo-icon {
 @media (min-width: 768px) and (max-width: 1023px) {
   header .header-2 .menu-row .logo-icon {
     display: block !important;
+  }
+}
+header .header-2 .menu-row .logo-icon .header-logo {
+  /*height of menu-row*/
+  height: 40px;
+  padding-left: 0;
+  margin: 0 auto;
+  /*font-size: 168px;*/
+  font-family: "Times New Roman", Times, serif;
+  font-size: 26px;
+  text-align: center;
+  /*height: 200px;*/
+  background-color: yellow;
+}
+@media (min-width: 1024px) {
+  header .header-2 .menu-row .logo-icon .header-logo {
+    max-width: 200px;
+    /*height of header*/
+    height: 150px;
+    font-size: 125px;
+  }
+}
+@media (min-width: 1366px) {
+  header .header-2 .menu-row .logo-icon .header-logo {
+    max-width: 269px;
+    /*height of header*/
+    height: 200px;
+    font-size: 168px;
   }
 }
 @media (min-width: 320px) {

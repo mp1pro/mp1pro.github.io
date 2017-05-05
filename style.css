@@ -7,13 +7,6 @@ body{
     .adsense-box{
         display:none;
     }
-
-
-    .logo-icon .header-logo{
-        font-size:26px;
-        /*height of menu-row*/
-        height: 40px;
-    }
     .header-logo .little-x{
         font-size: 12px;
         position:relative;
@@ -37,11 +30,6 @@ body{
         /*height of menu-row*/
         height: 40px;
     }
-    .logo-icon .header-logo{
-        font-size:26px;
-        /*height of menu-row*/
-        height: 40px;
-    }
     .header-logo .little-x{
         font-size: 12px;
         position:relative;
@@ -49,12 +37,7 @@ body{
     }
 }
 @media (min-width: 1024px) {
-    .logo .header-logo {
-        font-size: 125px;
-        /*height of header*/
-        height: 150px;
-        max-width: 200px;
-    }
+
     /*nav-bar*/
     .nav-bar ul li{
         font-size: 17px;
@@ -68,12 +51,7 @@ body{
     /*end of nav bar*/
 }
 @media (min-width: 1366px) {
-    .logo .header-logo {
-        font-size: 168px;
-        /*height of header*/
-        height: 200px;
-        max-width: 269px;
-    }
+
     /*nav-bar*/
     .nav-bar ul li{
         font-size: 22px;
@@ -96,16 +74,7 @@ body{
 
 
 
-.header-logo{
-    /*font-size: 168px;*/
-    font-family: "Times New Roman", Times, serif;
-    text-align:center;
 
-    /*height: 200px;*/
-    background-color: yellow;
-    margin: 0 auto;
-    padding-left: 0px;
-}
 .logo .header-logo .big-x{
     position: relative;
     bottom: 18px;
