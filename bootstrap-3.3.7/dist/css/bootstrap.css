@@ -9284,6 +9284,13 @@ header .header-2 .menu-row .menu-icon {
     display: block !important;
   }
 }
+header .header-2 .menu-row .menu-icon .h-stripe {
+  /*w3c schools*/
+  width: 90%;
+  height: 5px;
+  margin: 6px auto;
+  background-color: black;
+}
 @media (min-width: 320px) {
   .adsense-box-mobile {
     width: 320px;

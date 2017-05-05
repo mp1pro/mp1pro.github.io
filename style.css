@@ -7,13 +7,7 @@ body{
     .adsense-box{
         display:none;
     }
-    .menu-icon .h-stripe{
-        /*w3c schools*/
-        width: 90%;
-        height: 5px;
-        background-color: black;
-        margin: 6px auto;
-    }
+
     .logo-icon{
         background-color: orangered;
         /*height of menu-row*/
@@ -44,18 +38,7 @@ body{
     }
 }
 @media (min-width: 768px) {
-    .menu-icon{
 
-        /*height of menu-row*/
-        height: 40px;
-    }
-    .menu-icon .h-stripe{
-        /*w3c schools*/
-        width: 90%;
-        height: 5px;
-        background-color: black;
-        margin: 6px auto;
-    }
     .logo-icon{
         background-color: orangered;
         /*height of menu-row*/
