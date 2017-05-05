@@ -9256,6 +9256,34 @@ header .header-2 .menu-row {
     width: 100%;
   }
 }
+header .header-2 .menu-row .menu-icon {
+  position: relative;
+  display: none !important;
+  float: left;
+  width: 16.66666667%;
+  /*height of menu-row*/
+  height: 40px;
+  min-height: 1px;
+  padding-right: 0;
+  padding-left: 0;
+  background-color: purple;
+}
+@media (min-width: 768px) {
+  header .header-2 .menu-row .menu-icon {
+    float: left;
+    width: 8.33333333%;
+  }
+}
+@media (max-width: 767px) {
+  header .header-2 .menu-row .menu-icon {
+    display: block !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  header .header-2 .menu-row .menu-icon {
+    display: block !important;
+  }
+}
 @media (min-width: 320px) {
   .adsense-box-mobile {
     width: 320px;
