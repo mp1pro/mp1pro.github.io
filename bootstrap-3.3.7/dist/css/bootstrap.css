@@ -9319,6 +9319,19 @@ header .header-2 .menu-row .search {
     width: 20%;
   }
 }
+header .header-2 .menu-row .search .search-blcok {
+  max-width: 100%;
+  height: 40px;
+  margin: 0 auto;
+  font-size: 26px;
+  text-align: left;
+  background-color: white;
+}
+@media (min-width: 1024px) {
+  header .header-2 .menu-row .search .search-blcok {
+    max-width: 269px;
+  }
+}
 @media (min-width: 320px) {
   .adsense-box-mobile {
     width: 320px;

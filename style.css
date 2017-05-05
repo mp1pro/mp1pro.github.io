@@ -47,10 +47,6 @@ body{
     .input-group-addon{
         visibility: hidden;
     }
-    .search-blcok {
-
-        max-width: 100%;
-    }
     .logo-icon .header-logo{
         font-size:26px;
         /*height of menu-row*/
@@ -78,10 +74,6 @@ body{
     .input-group-addon{
         visibility: visible;
     }
-    .search-blcok {
-
-        max-width: 269px;
-    }
     /*nav-bar*/
     .nav-bar ul li{
         font-size: 17px;
@@ -101,16 +93,6 @@ body{
         height: 200px;
         max-width: 269px;
     }
-
-    .logo{
-        /*height of header*/
-
-    }
-
-    .search-blcok {
-
-        max-width: 269px;   
-    }
     /*nav-bar*/
     .nav-bar ul li{
         font-size: 22px;
@@ -122,13 +104,6 @@ body{
         max-width: 269px;
     }
     /*end of nav bar*/
-
-}
-
-.logo{
-
-    /*height of header set as variable*/
-    /*height: 200px;*/
 
 }
 .logo img{
@@ -205,14 +180,7 @@ nav ul li{
     height: 40px;
 }
 
-.search-blcok{
-    background-color: white;
 
-    margin:0 auto;
-    text-align: left;
-    height: 40px;
-    font-size: 26px;
-}
 .search-blcok input{
     padding: 0 0 0 10px;
     font-size: 26px;
