@@ -7,11 +7,6 @@ body{
     .adsense-box{
         display:none;
     }
-    .header-logo .little-x{
-        font-size: 12px;
-        position:relative;
-        top: 6px;
-    }
 }
 @media (min-width: 340px){
     .adsense-box{
@@ -29,11 +24,6 @@ body{
         background-color: orangered;
         /*height of menu-row*/
         height: 40px;
-    }
-    .header-logo .little-x{
-        font-size: 12px;
-        position:relative;
-        top: 6px;
     }
 }
 @media (min-width: 1024px) {
@@ -77,7 +67,7 @@ body{
 
 
 .logo .header-logo .little-x{
-    font-size: 30px;
+
 }
 /*END OF HEADER****************************************************/
 

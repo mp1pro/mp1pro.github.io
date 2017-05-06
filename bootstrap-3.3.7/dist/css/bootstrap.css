@@ -9171,6 +9171,22 @@ header .header-1 .logo .header-logo {
     font-size: 168px;
   }
 }
+@media (min-width: 1024px) {
+  header .header-1 .logo .header-logo .big-x {
+    position: relative;
+    bottom: 18px;
+  }
+}
+header .header-1 .logo .header-logo .little-x {
+  position: relative;
+  top: 6px;
+  font-size: 12px;
+}
+@media (min-width: 1024px) {
+  header .header-1 .logo .header-logo .little-x {
+    font-size: 30px;
+  }
+}
 header .header-1 .header-title {
   position: relative;
   min-height: 1px;
@@ -9438,6 +9454,16 @@ header .header-2 .menu-row .logo-icon .header-logo {
   header .header-2 .menu-row .logo-icon .header-logo .big-x {
     position: relative;
     bottom: 18px;
+  }
+}
+header .header-2 .menu-row .logo-icon .header-logo .little-x {
+  position: relative;
+  top: 6px;
+  font-size: 12px;
+}
+@media (min-width: 1024px) {
+  header .header-2 .menu-row .logo-icon .header-logo .little-x {
+    font-size: 30px;
   }
 }
 @media (min-width: 320px) {
