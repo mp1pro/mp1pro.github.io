@@ -9503,6 +9503,24 @@ header .header-2 .menu-row .nav-bar ul {
   margin: 0;
   text-align: center;
 }
+header .header-2 .menu-row .nav-bar ul li {
+  display: inline-block;
+  width: 16.6%;
+  height: 40px;
+  padding-top: 5px;
+  margin: 0 auto;
+  list-style: none;
+}
+@media (min-width: 1024px) {
+  header .header-2 .menu-row .nav-bar ul li {
+    font-size: 17px;
+  }
+}
+@media (min-width: 1366px) {
+  header .header-2 .menu-row .nav-bar ul li {
+    font-size: 22px;
+  }
+}
 @media (min-width: 320px) {
   .adsense-box-mobile {
     width: 320px;

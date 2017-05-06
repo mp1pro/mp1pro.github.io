@@ -29,9 +29,7 @@ body{
 @media (min-width: 1024px) {
 
     /*nav-bar*/
-    .nav-bar ul li{
-        font-size: 17px;
-    }
+
     /*end nav-bar*/
 
     /*left nav bar*/
@@ -43,9 +41,7 @@ body{
 @media (min-width: 1366px) {
 
     /*nav-bar*/
-    .nav-bar ul li{
-        font-size: 22px;
-    }
+
     /*end nav-bar*/
 
     /*left nav bar*/
@@ -96,16 +92,6 @@ nav ul li{
 
 /*menu-bar*/
 
-
-.nav-bar ul li {
-    display: inline-block;
-    height: 40px;
-
-    margin: 0 auto;
-    width:16.6%;
-    list-style: none;
-    padding-top: 5px;
-}
 
 /*end of menu-bar*/
 
