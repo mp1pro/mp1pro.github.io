@@ -9607,6 +9607,37 @@ main nav ul li {
   padding-left: 10px;
   border-bottom: solid 1px green;
 }
+main .share {
+  position: relative;
+  display: none !important;
+  height: 800px;
+  min-height: 1px;
+  padding-right: 0;
+  padding-left: 0;
+  background-color: grey;
+}
+@media (min-width: 1024px) {
+  main .share {
+    float: left;
+    width: 5%;
+  }
+}
+@media (min-width: 1366px) {
+  main .share {
+    float: left;
+    width: 5%;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1365px) {
+  main .share {
+    display: block !important;
+  }
+}
+@media (min-width: 1366px) {
+  main .share {
+    display: block !important;
+  }
+}
 footer {
   padding-right: 0;
   padding-left: 0;
