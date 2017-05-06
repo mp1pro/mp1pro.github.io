@@ -9555,8 +9555,35 @@ main > .navbar-collapse {
   }
 }
 main nav {
+  position: relative;
+  display: none !important;
   height: 800px;
+  min-height: 1px;
+  padding-right: 0;
+  padding-left: 0;
   background-color: pink;
+}
+@media (min-width: 1024px) {
+  main nav {
+    float: left;
+    width: 20%;
+  }
+}
+@media (min-width: 1366px) {
+  main nav {
+    float: left;
+    width: 20%;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1365px) {
+  main nav {
+    display: block !important;
+  }
+}
+@media (min-width: 1366px) {
+  main nav {
+    display: block !important;
+  }
 }
 footer {
   padding-right: 0;
