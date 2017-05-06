@@ -33,9 +33,6 @@ body{
     /*end nav-bar*/
 
     /*left nav bar*/
-    main ul {
-        max-width: 200px;
-    }
     /*end of nav bar*/
 }
 @media (min-width: 1366px) {
@@ -45,9 +42,6 @@ body{
     /*end nav-bar*/
 
     /*left nav bar*/
-    main ul {
-        max-width: 269px;
-    }
     /*end of nav bar*/
 
 }
@@ -72,15 +66,7 @@ body{
 }
 /*left nav bar*/
 
-main ul {
-    list-style: none;
-    font-size: 26px;
-    margin:0 auto;
-    padding:0;
 
-    text-align:left;
-    background-color: pink;
-}
 nav ul li{
     padding-left:10px;
     border-bottom: solid 1px green;
