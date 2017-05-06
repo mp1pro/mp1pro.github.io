@@ -9469,9 +9469,11 @@ header .header-2 .menu-row .logo-icon .header-logo .little-x {
 header .header-2 .menu-row .nav-bar {
   position: relative;
   display: none !important;
+  height: 40px;
   min-height: 1px;
   padding-right: 0;
   padding-left: 0;
+  background-color: purple;
 }
 @media (min-width: 1024px) {
   header .header-2 .menu-row .nav-bar {
