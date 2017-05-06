@@ -4,19 +4,10 @@ body{
 /*HEADER SECTION********************************/
 
 @media (min-width: 320px) {
-    .adsense-box{
-        display:none;
-    }
+
 }
 @media (min-width: 340px){
-    .adsense-box{
-        width:336px;
-        height: 280px;
-        background-color: green;
-        float: right;
-        margin: 0 0 20px 20px;
-        display: block;
-    }
+
 }
 @media (min-width: 768px) {
 
