@@ -9681,6 +9681,33 @@ main article .article-title {
     background-color: green;
   }
 }
+main .right {
+  position: relative;
+  display: none !important;
+  height: 800px;
+  min-height: 1px;
+  padding-right: 0;
+  padding-left: 0;
+  background-color: red;
+  border: solid green 3px;
+}
+@media (min-width: 1024px) {
+  main .right {
+    float: left;
+    width: 13.33333333%;
+  }
+}
+@media (min-width: 1366px) {
+  main .right {
+    float: left;
+    width: 13.33333333%;
+  }
+}
+@media (min-width: 1366px) {
+  main .right {
+    display: block !important;
+  }
+}
 footer {
   padding-right: 0;
   padding-left: 0;
