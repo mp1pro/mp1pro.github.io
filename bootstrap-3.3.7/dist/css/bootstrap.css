@@ -9434,6 +9434,12 @@ header .header-2 .menu-row .logo-icon .header-logo {
     font-size: 168px;
   }
 }
+@media (min-width: 1024px) {
+  header .header-2 .menu-row .logo-icon .header-logo .big-x {
+    position: relative;
+    bottom: 18px;
+  }
+}
 @media (min-width: 320px) {
   .adsense-box-mobile {
     width: 320px;
