@@ -9495,6 +9495,12 @@ header .header-2 .menu-row .nav-bar {
     display: block !important;
   }
 }
+header .header-2 .menu-row .nav-bar ul {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
 @media (min-width: 320px) {
   .adsense-box-mobile {
     width: 320px;
