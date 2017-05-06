@@ -9638,6 +9638,29 @@ main .share {
     display: block !important;
   }
 }
+main article {
+  position: relative;
+  height: auto;
+  min-height: 1px;
+  padding: 10px !important;
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 20px;
+  text-align: justify;
+  background-color: blue;
+}
+@media (min-width: 1024px) {
+  main article {
+    float: left;
+    width: 75%;
+  }
+}
+@media (min-width: 1366px) {
+  main article {
+    float: left;
+    width: 61.66666667%;
+  }
+}
 footer {
   padding-right: 0;
   padding-left: 0;

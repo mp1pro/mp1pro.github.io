@@ -78,13 +78,7 @@ body{
 
 /*article*/
 
-article.inside{
-    background-color: blue;
-    height: auto;
-    font-size: 20px;
-    padding: 10px;
-    text-align: justify;
-}
+
 article span{
 
 }
