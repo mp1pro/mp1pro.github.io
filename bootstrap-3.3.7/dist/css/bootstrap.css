@@ -9661,6 +9661,11 @@ main article {
     width: 61.66666667%;
   }
 }
+main article .article-title {
+  padding-bottom: 10px;
+  font-size: 30px;
+  background-color: white;
+}
 footer {
   padding-right: 0;
   padding-left: 0;
