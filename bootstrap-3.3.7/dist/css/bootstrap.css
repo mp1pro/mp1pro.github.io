@@ -9554,6 +9554,10 @@ main > .navbar-collapse {
     margin-left: 0;
   }
 }
+main nav {
+  height: 800px;
+  background-color: pink;
+}
 footer {
   padding-right: 0;
   padding-left: 0;

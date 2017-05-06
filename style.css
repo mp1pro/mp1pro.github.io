@@ -71,10 +71,7 @@ body{
     /*background-color: red;*/
 }
 /*left nav bar*/
-nav{
-    background-color: pink;
-    height: 800px;
-}
+
 main ul {
     list-style: none;
     font-size: 26px;
