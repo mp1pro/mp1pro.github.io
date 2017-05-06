@@ -9466,6 +9466,35 @@ header .header-2 .menu-row .logo-icon .header-logo .little-x {
     font-size: 30px;
   }
 }
+header .header-2 .menu-row .nav-bar {
+  position: relative;
+  display: none !important;
+  min-height: 1px;
+  padding-right: 0;
+  padding-left: 0;
+}
+@media (min-width: 1024px) {
+  header .header-2 .menu-row .nav-bar {
+    float: left;
+    width: 80%;
+  }
+}
+@media (min-width: 1366px) {
+  header .header-2 .menu-row .nav-bar {
+    float: left;
+    width: 80%;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1365px) {
+  header .header-2 .menu-row .nav-bar {
+    display: block !important;
+  }
+}
+@media (min-width: 1366px) {
+  header .header-2 .menu-row .nav-bar {
+    display: block !important;
+  }
+}
 @media (min-width: 320px) {
   .adsense-box-mobile {
     width: 320px;
