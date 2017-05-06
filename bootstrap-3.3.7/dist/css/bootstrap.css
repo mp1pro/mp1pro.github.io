@@ -9603,6 +9603,10 @@ main nav ul {
     max-width: 269px;
   }
 }
+main nav ul li {
+  padding-left: 10px;
+  border-bottom: solid 1px green;
+}
 footer {
   padding-right: 0;
   padding-left: 0;
